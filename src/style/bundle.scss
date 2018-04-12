@@ -1,0 +1,36 @@
+@import './sass/base/_app';
+@import './sass/base/_reset';
+
+@import './sass/components/_buttons';
+@import './sass/components/_dropdown';
+@import './sass/components/_banner';
+@import './sass/components/_searchbox';
+@import './sass/components/_cards';
+@import './sass/components/_buttons';
+
+@import './sass/layouts/_footer';
+@import './sass/layouts/_grid';
+@import './sass/layouts/_logo';
+@import './sass/layouts/_footer';
+
+@import './sass/layouts/_navigationitem';
+@import './sass/layouts/_navigationitems';
+@import './sass/layouts/_sidedrawer';
+@import './sass/layouts/_drawertoggle';
+@import './sass/layouts/_toolbar';
+
+@import './css/layout';
+
+@import './sass/pages/_allcards';
+@import './sass/pages/_excelcards';
+@import './sass/pages/_imagecards';
+@import './sass/pages/_pdfcards';
+@import './sass/pages/_videocards';
+@import './sass/pages/_wordcards';
+
+@import './sass/utils/_variables';
+
+
+body {
+	background-color: white;
+}

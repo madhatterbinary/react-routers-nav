@@ -1,0 +1,90 @@
+p {
+    color: #666;
+    font-size: 13px;
+    line-height: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.card-container {
+    perspective: 150rem;
+    position: relative;
+}
+.card-deck {
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 330px;
+    height: 318px;
+    transform-style: preserve-3d;
+    transition: all .8s ease-in-out;
+}
+.card-deck:hover {
+    transform: rotateY(-180deg);
+}
+.card-deck .card {
+    height: 318px;
+    width: 272px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card-deck .card.mb-4.back {
+    height: 318px;
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    right: 15px;
+    background-color:#f5c645;
+    
+}
+.description {
+    visibility: visible;
+    top: 60px;
+    line-height: 19px;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+}
+
+.card__cta {
+    position: relative;
+    bottom: 30px;
+}
+.card-header {
+    background-color: rgba(0,0,0,0);
+    border-bottom: 1px solid rgba(0,0,0,0);
+}
+.card-body {
+   font-size: 14px;
+   padding: 0;
+}
+.card {
+    border-radius: 0;
+    border-bottom: 10px solid #f5c645;
+}
+
+img {
+    height: 54px;
+}
+.font-weight-normal {
+    font-weight: 400!important;
+    font-size: 16px;
+}
+
+.card-header {
+    padding: 2.75rem 1.25rem; 
+}
+.card-title {
+    position: relative;
+    bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #666;
+}
+.text-muted {
+    font-size: 18px;
+    font-weight: 700;
+    color: #666; 
+}
